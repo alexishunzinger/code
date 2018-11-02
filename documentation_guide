@@ -1,0 +1,45 @@
+Guide to good documentation practices, as described in Effective Computation in Physics (O'Reilly).
+
+What to include?
+-Equations implemented
+-Links to journal articles of influence
+-Thought process
+-What would be recorded in a lab notebook
+
+Types of Documentation:
+Theory manuals, user and developer guides, code comments, self-documenting code, generated API documentation
+
+	Theory Manuals
+	-Captures the scientific goals and provenance of the code
+	-Peer-reviewed
+	-Archived
+	-Can be cited
+	
+	......
+
+	User and Developer Guides
+		Readme Files
+		-Include basic information on: installation, citation, license, release, about
+		EXAMPLE:
+			SQUIRREL, version 1.2 released on 2026-09-20
+	
+			# About
+
+			The Spectral Q and U Imaging Radiation Replicating Experimental Library (SQUIRREL) is a library for replication radiation sources with spectral details and Q and U polarization of superman bubblehum.
+
+			# Installation
+
+			The SQUIRREL library relies on other libraries:
+
+			- The ACORN library www.acorn.nutz
+			- The TREEBRANCH database format API
+
+			Install those before installing the SQUIRREL library. To install the SQUIRRel library:
+			./configure
+			make --prefix=/install/path
+			make install
+
+			...
+
+	Comments
+	-In Python, you can use pound sign (#) or triple quote (""") to denote a comment
